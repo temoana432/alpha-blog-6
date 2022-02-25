@@ -25,6 +25,7 @@
         </div>
 
         <div class="form-group row justify-content-center">
+        <!-- new_record? method indicates whether the submission is for a new record-->
           <%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: "btn btn-outline-light btn-lg") %>
         </div>
       <% end %>
